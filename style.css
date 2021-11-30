@@ -21,8 +21,8 @@ section{
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(40px);
-    border: 2px solid rgb(0, 110, 255);
-    border-radius: 20px;
+    /* border: 2px solid rgb(0, 110, 255); */
+    /* border-radius: 20px; */
     padding: 20px;
 }
 
@@ -32,12 +32,10 @@ h1{
 }
 
 .logo{
-    width: 20vw;
-    min-width: 100px;
-    max-width: 200px;
+    width: 100px;
     background-color: white;
-    padding: 40px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 
@@ -54,11 +52,13 @@ label{
     h1{
         font-size: 30px!important;
     }
+    section{
+        margin: 20px!important;
+    }
 
 }
 
 @media only screen and (max-width: 500px){
-    
     h1{
         font-size: 20px!important;
     }
