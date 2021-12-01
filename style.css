@@ -5,14 +5,16 @@ html,body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    justify-content: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
 }
 
 section{
-    flex-grow: 1;
-    width: 100%;
+    /* flex-grow: 1; */
+    min-width: 250px;
+    max-width: 50vw;
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -23,7 +25,7 @@ section{
     backdrop-filter: blur(40px);
     /* border: 2px solid rgb(0, 110, 255); */
     /* border-radius: 20px; */
-    padding: 20px;
+    padding: 50px;
 }
 
 h1{
@@ -31,6 +33,9 @@ h1{
     text-align: center;
 }
 
+p{
+    font-size: 15px;
+}
 .logo{
     width: 100px;
     background-color: white;
@@ -49,11 +54,14 @@ label{
         width: 100px!important;
         padding: 20px!important;
     }
+    
     h1{
         font-size: 30px!important;
     }
     section{
+        max-width: 80vw;
         margin: 20px!important;
+        padding: 20px;
     }
 
 }
